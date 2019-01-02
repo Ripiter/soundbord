@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+<TextView
+	android:text="Piosenki po polsku"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="95dp"
+		android:id="@+id/textView2" 
+		android:textSize="25dp"/>		
+
+<ImageButton android:text="Second Page"
+	android:layout_marginTop="20px"
+	android:layout_marginLeft="200dp"
+	android:layout_width="200dp"
+	android:layout_height="247px"
+	android:id="@+id/second"
+	android:background="@drawable/polishflag"/>
+
+<TextView
+	android:text="Piosenki po dunsku"
+	android:gravity="center"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:layout_width="match_parent"
+	android:layout_height="95dp"
+	android:id="@+id/textView2" 
+	android:textSize="25dp"/>
+
+<ImageButton android:text="Third Page"
+	android:layout_marginTop="20px"
+	android:layout_marginLeft="200dp"
+	android:layout_width="200dp"
+	android:layout_height="247px"
+	android:id="@+id/third"
+	android:background="@drawable/danishflag"/>
+
+<TextView
+	android:text="Piosenki po angielsku"
+	android:gravity="center"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:layout_width="match_parent"
+	android:layout_height="95dp"
+	android:id="@+id/textView2" 
+	android:textSize="25dp"/>
+
+<ImageButton android:text="Fourth Page"
+	android:layout_marginTop="20px"
+	android:layout_marginLeft="200dp"
+	android:layout_width="200dp"
+	android:layout_height="247px"
+	android:id="@+id/fourth"
+	android:background="@drawable/usflag"/>
+
+	</android.support.design.widget.AppBarLayout>
+	<include
+		layout="@layout/content_main" 
+	/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="25px" android:minHeight="25px">  
+
+	</LinearLayout>  
+	
+	
+
+	
+</android.support.design.widget.CoordinatorLayout>

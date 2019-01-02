@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#42f477">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">  
+    <Button android:text="First Page"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/First"
+	/>
+<Button android:text="song nr 1"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/wiii"
+	/>
+<Button android:text="song nr 2"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/yeeet"/> 
+	<Button android:text="song nr 3"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/garim"/></LinearLayout>  
+</LinearLayout>
+
