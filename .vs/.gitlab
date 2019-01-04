@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 3221765,
+    "Username": "Ripiter",
+    "Name": "Peter Cholub",
+    "Email": "peter.cholub@hotmail.com",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/fe359df6b4233c2bf9aacc4a0b8768af?s=80&d=identicon",
+    "PrivateToken": "dd381d9fd971c6da39747587d6f409827997035c2d5e199d3ac5247da50ef57b",
+    "Host": "https://gitlab.com",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}
